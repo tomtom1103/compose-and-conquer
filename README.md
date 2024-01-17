@@ -16,6 +16,7 @@ Official implementation of Compose and Conquer: Diffusion-Based 3D Depth Aware C
 - 2024/1/16 Compose and Conquer has been accepted at ICLR 2024! see you at vienna
 
 ## To-Do
+ - [ ] Update canny + depth weights
  - [ ] Diffusers integration
 
 
