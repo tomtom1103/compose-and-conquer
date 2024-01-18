@@ -1,7 +1,9 @@
  # [ICLR 2024] Compose and Conquer: Diffusion-Based 3D Depth Aware Composable Image Synthesis
 
+[![arXiv](https://img.shields.io/badge/arXiv-2110.02711-red)](https://arxiv.org/abs/2401.09048)
+
 > **Compose and Conquer: Diffusion-Based 3D Depth Aware Composable Image Synthesis**<br>
-> Jonghyun Lee, Hansam Cho, YoungJoon Yoo, Seoung Bum Kim, Yonghyun Jeong<br>
+> Jonghyun Lee, Hansam Cho, Youngjoon Yoo, Seoung Bum Kim, Yonghyun Jeong<br>
 > 
 >**Abstract**: <br>
 Addressing the limitations of text as a source of accurate layout representation in text-conditional diffusion models, many works incorporate additional signals to condition certain attributes within a generated image. Although successful, previous works do not account for the specific localization of said attributes extended into the three dimensional plane. In this context, we present a conditional diffusion model that integrates control over three-dimensional object placement with disentangled representations of global stylistic semantics from multiple exemplar images. Specifically, we first introduce depth disentanglement training to leverage the relative depth of objects as an estimator, allowing the model to identify the absolute positions of unseen objects through the use of synthetic image triplets. We also introduce soft guidance, a method for imposing global semantics onto targeted regions without the use of any additional localization cues. Our integrated framework, Compose and Conquer (CnC), unifies these techniques to localize multiple conditions in a disentangled manner. We demonstrate that our approach allows perception of objects at varying depths while offering a versatile framework for composing localized objects with different global semantics.
